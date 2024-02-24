@@ -3,7 +3,7 @@ const CONFIG = {
   SIMPLE_LOGO_IMG: '/Logo.webp',
   SIMPLE_TOP_BAR: true, // 显示顶栏
   SIMPLE_TOP_BAR_CONTENT: process.env.NEXT_PUBLIC_THEME_SIMPLE_TOP_TIPS || '',
-  SIMPLE_LOGO_DESCRIPTION: process.env.NEXT_PUBLIC_THEME_SIMPLE_LOGO_DESCRIPTION || '<div>Slasher Plus（即：斜杠中年）<br/>/独立开发者（未实现）<br/>/独立翻唱者（未实现）<br/>/粤语精华普及者（不熟不普及）</div>', 
+  SIMPLE_LOGO_DESCRIPTION: process.env.NEXT_PUBLIC_THEME_SIMPLE_LOGO_DESCRIPTION || '<div>Slasher Plus - 斜杠中年<br/>/独立开发者 - developing...<br/>/独立翻唱者 - 未实现<br/>/粤语精华普及者 - 不熟不普及</div>', 
 
   SIMPLE_AUTHOR_LINK: process.env.NEXT_PUBLIC_AUTHOR_LINK || '#',
 
