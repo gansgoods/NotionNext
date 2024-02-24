@@ -13,7 +13,7 @@ export default function ChatBase() {
   return <iframe
         src={`https://www.chatbase.co/chatbot-iframe/${siteConfig('CHATBASE_ID')}`}
         width="100%"
-        style={{ height: '100%', minHeight: '700px' }}
+        style={{ height: '100%', minHeight: '700px',position:fixed; right:0; top:0; border:0; }}
         frameborder="0"
     ></iframe>
 }
